@@ -48,8 +48,12 @@ nav {
     position: fixed;
 }
 
+nav .bars{
+    display: none;
+}
+
 nav span {
-    width: 1174px;
+    width: 90%;
     margin: auto;
     color: #fff;
     @extend %center_things;
@@ -321,4 +325,22 @@ footer input{
 }
 footer button{
     @extend %button_things;
+}
+
+
+
+
+
+@media (min-width: 448px) and (max-width: 769px){
+    nav{
+        width: 100%;
+    }
+    nav ul,
+    nav button{
+       display: none;
+    }
+
+    nav .bars{
+        display: block;
+    }
 }

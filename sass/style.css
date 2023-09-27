@@ -48,8 +48,12 @@ nav {
   position: fixed;
 }
 
+nav .bars {
+  display: none;
+}
+
 nav span {
-  width: 1174px;
+  width: 90%;
   margin: auto;
   color: #fff;
 }
@@ -269,4 +273,17 @@ footer span {
 
 footer input {
   padding: 10px 20px;
+}
+
+@media (min-width: 448px) and (max-width: 769px) {
+  nav {
+    width: 100%;
+  }
+  nav ul,
+  nav button {
+    display: none;
+  }
+  nav .bars {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
