@@ -1,9 +1,0 @@
-#main1 .container{
-    background-image: url("./images/main_bg1x.jpg");
-    background-color: black;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
