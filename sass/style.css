@@ -290,6 +290,9 @@ footer input {
     font-size: 30px;
     line-height: 50px;
   }
+  #main1 .container .header_subtitle .header_p {
+    margin: 30px 0px;
+  }
 }
 @media (min-width: 447px) and (max-width: 769px) {
   #main1 .container {
@@ -304,6 +307,9 @@ footer input {
   #main1 .container .header_subtitle .header_h1 {
     font-size: 30px;
     line-height: 50px;
+  }
+  #main1 .container .header_subtitle .header_p {
+    margin: 30px 0px;
   }
 }
 @media (max-width: 446px) {
@@ -322,5 +328,8 @@ footer input {
   #main1 .container .header_subtitle .header_h1 {
     font-size: 30px;
     line-height: 50px;
+  }
+  #main1 .container .header_subtitle .header_p {
+    margin: 30px 0px;
   }
 }/*# sourceMappingURL=style.css.map */
