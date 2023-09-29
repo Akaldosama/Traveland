@@ -32,11 +32,11 @@ footer button, #main1 .container .header_subtitle button, #main1 .container .hea
 #main4 p, #main3 p, #main2 p {
   color: #000;
   text-align: center;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  margin: 20px 0px;
+  margin: 20px 15px;
   /* 28.8px */
 }
 
@@ -312,6 +312,9 @@ footer input {
   }
   #main1 .container .header button {
     display: none;
+  }
+  #main1 .container .header_subtitle {
+    margin-top: 20%;
   }
   #main1 .container .header_subtitle .header_h1 {
     font-size: 30px;

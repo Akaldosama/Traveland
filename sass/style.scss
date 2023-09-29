@@ -32,11 +32,11 @@
 %p_things {
     color: #000;
     text-align: center;
-    font-family: Roboto;
+    font-family: sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    margin: 20px 0px;
+    margin: 20px 15px;
     /* 28.8px */
 }
 
@@ -391,6 +391,7 @@ footer button {
             }
         }
         .header_subtitle {
+            margin-top: 20%;
             .header_h1 {
                 font-size: 30px;
                 line-height: 50px;
